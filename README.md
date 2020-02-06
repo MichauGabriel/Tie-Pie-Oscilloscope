@@ -7,7 +7,7 @@
  import readtps as rtps
  import zipfile
  
- zfile = zipfile.ZipFile(archive)
+ zfile = zipfile.ZipFile('mayArchive.zip')
  filenames = [e for e in zfile.infolist() if '.tps' in e.filename]
  for file in filenames:
 	fileID = zfile.open(file, "r")
