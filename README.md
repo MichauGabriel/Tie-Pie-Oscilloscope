@@ -3,7 +3,7 @@
  
  The function takes as input a fileID so that if you can use it with the zipfile packages:
  
- '''
+ ```
  import readtps as rtps
  import zipfile
  
@@ -12,8 +12,8 @@
  for file in filenames:
 	fileID = zfile.open(file, "r")
 	data, fsr, chRange = rtps.readTPS(fileID)
- '''
+```
  or 
- '''
+```
  fileID = open('myfile.tps', "rb")
- '''
+```
