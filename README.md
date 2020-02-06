@@ -17,3 +17,6 @@
 ```
  fileID = open('myfile.tps', "rb")
 ```
+
+This is exploratory work, in all the tps file I dealt with, the data was always in float32 but this is maybe encoded in the 'FMT' key.
+In all the experiements I did, I had all channels with the same settings, in particular sampling frequency and length. This might not always be the case.
