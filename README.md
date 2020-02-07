@@ -1,7 +1,7 @@
 # Tie Pie Oscilloscope
  Python code to read '.tps' binary files
  
- The function takes as input a fileID so that if you can use it with the zipfile packages:
+ The function takes as input an opened file (`fileID`) so that if you can use it, among others, with the zipfile packages:
  
  ```
  import readtps as rtps
